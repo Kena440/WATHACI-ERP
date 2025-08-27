@@ -12,7 +12,7 @@ Assets
 Portal
 Maintenance
 Regional
-ERPNext Integrations
+WATHACI EPR Integrations
 Quality Management
 Communication
 Telephony

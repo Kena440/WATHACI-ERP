@@ -2,9 +2,9 @@
     <a href="https://frappe.io/erpnext">
 	<img src="./erpnext/public/images/v16/erpnext.svg" alt="ERPNext Logo" height="80px" width="80xp"/>
     </a>
-    <h2>ERPNext</h2>
+    <h2>WATHACI EPR</h2>
     <p align="center">
-        <p>Powerful, Intuitive and Open-Source ERP</p>
+        <p>Powerful, Intuitive and Open-Source WATHACI EPR</p>
     </p>
 
 [![Learn on Frappe School](https://img.shields.io/badge/Frappe%20School-Learn%20ERPNext-blue?style=flat-square)](https://frappe.school)<br><br>
@@ -25,13 +25,13 @@
 	<a href="https://docs.frappe.io/erpnext/">Documentation</a>
 </div>
 
-## ERPNext
+## WATHACI EPR
 
-100% Open-Source ERP system to help you run your business.
+100% Open-Source WATHACI EPR system to help you run your business.
 
 ### Motivation
 
-Running a business is a complex task - handling invoices, tracking stock, managing personnel and even more ad-hoc activities. In a market where software is sold separately to manage each of these tasks, ERPNext does all of the above and more, for free.
+Running a business is a complex task - handling invoices, tracking stock, managing personnel and even more ad-hoc activities. In a market where software is sold separately to manage each of these tasks, WATHACI EPR does all of the above and more, for free.
 
 ### Key Features
 
@@ -100,7 +100,7 @@ See [Frappe Docker](https://github.com/frappe/frappe_docker?tab=readme-ov-file#t
 
 The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/frappe/bench for more details.
 
-New passwords will be created for the ERPNext "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
+New passwords will be created for the WATHACI EPR "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
 
 
 ### Local
@@ -118,9 +118,9 @@ To setup the repository locally follow the steps mentioned below:
    bench new-site erpnext.localhost
    ```
 
-3. Get the ERPNext app and install it
+3. Get the WATHACI EPR app and install it
    ```
-   # Get the ERPNext app
+   # Get the WATHACI EPR app
    bench get-app https://github.com/frappe/erpnext
 
    # Install the app
@@ -131,9 +131,9 @@ To setup the repository locally follow the steps mentioned below:
 
 ## Learning and community
 
-1. [Frappe School](https://school.frappe.io) - Learn Frappe Framework and ERPNext from the various courses by the maintainers or from the community.
-2. [Official documentation](https://docs.erpnext.com/) - Extensive documentation for ERPNext.
-3. [Discussion Forum](https://discuss.erpnext.com/) - Engage with community of ERPNext users and service providers.
+1. [Frappe School](https://school.frappe.io) - Learn Frappe Framework and WATHACI EPR from the various courses by the maintainers or from the community.
+2. [Official documentation](https://docs.erpnext.com/) - Extensive documentation for WATHACI EPR.
+3. [Discussion Forum](https://discuss.erpnext.com/) - Engage with community of WATHACI EPR users and service providers.
 4. [Telegram Group](https://erpnext_public.t.me) - Get instant help from huge community of users.
 
 
