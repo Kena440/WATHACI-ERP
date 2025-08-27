@@ -1,0 +1,120 @@
+/* Zambian Color Theme Variables */
+/* Based on Zambian flag colors and cultural significance */
+
+:root {
+  /* Primary Zambian Colors */
+  --zambian-green: #228B22;        /* Natural resources and vegetation */
+  --zambian-orange: #FF8C00;       /* Mineral wealth, especially copper */
+  --zambian-red: #DC143C;          /* Struggle for freedom */
+  --zambian-black: #2F2F2F;        /* People of Zambia */
+  --zambian-white: #FFFFFF;        /* Unity and peace */
+
+  /* Shades and Tints for Better UX */
+  --zambian-green-light: #32CD32;
+  --zambian-green-dark: #006400;
+  --zambian-green-50: rgba(34, 139, 34, 0.05);
+  --zambian-green-100: rgba(34, 139, 34, 0.1);
+  --zambian-green-200: rgba(34, 139, 34, 0.2);
+  --zambian-green-500: rgba(34, 139, 34, 0.5);
+
+  --zambian-orange-light: #FFA500;
+  --zambian-orange-dark: #FF6347;
+  --zambian-orange-50: rgba(255, 140, 0, 0.05);
+  --zambian-orange-100: rgba(255, 140, 0, 0.1);
+  --zambian-orange-200: rgba(255, 140, 0, 0.2);
+  --zambian-orange-500: rgba(255, 140, 0, 0.5);
+
+  --zambian-red-light: #FF6B6B;
+  --zambian-red-dark: #B71C1C;
+  --zambian-red-50: rgba(220, 20, 60, 0.05);
+  --zambian-red-100: rgba(220, 20, 60, 0.1);
+  --zambian-red-200: rgba(220, 20, 60, 0.2);
+  --zambian-red-500: rgba(220, 20, 60, 0.5);
+
+  /* Semantic Color Mapping */
+  --zambian-primary: var(--zambian-green);
+  --zambian-primary-light: var(--zambian-green-light);
+  --zambian-primary-dark: var(--zambian-green-dark);
+  --zambian-primary-bg: var(--zambian-green-50);
+  --zambian-primary-hover: var(--zambian-green-100);
+
+  --zambian-secondary: var(--zambian-orange);
+  --zambian-secondary-light: var(--zambian-orange-light);
+  --zambian-secondary-dark: var(--zambian-orange-dark);
+  --zambian-secondary-bg: var(--zambian-orange-50);
+  --zambian-secondary-hover: var(--zambian-orange-100);
+
+  --zambian-accent: var(--zambian-red);
+  --zambian-accent-light: var(--zambian-red-light);
+  --zambian-accent-dark: var(--zambian-red-dark);
+  --zambian-accent-bg: var(--zambian-red-50);
+  --zambian-accent-hover: var(--zambian-red-100);
+
+  /* Neutral Colors */
+  --zambian-gray-50: #F8F9FA;
+  --zambian-gray-100: #F1F3F4;
+  --zambian-gray-200: #E8EAED;
+  --zambian-gray-300: #DADCE0;
+  --zambian-gray-400: #BDC1C6;
+  --zambian-gray-500: #9AA0A6;
+  --zambian-gray-600: #80868B;
+  --zambian-gray-700: #5F6368;
+  --zambian-gray-800: #3C4043;
+  --zambian-gray-900: var(--zambian-black);
+
+  /* Improved UX Colors */
+  --zambian-success: #4CAF50;
+  --zambian-warning: var(--zambian-orange);
+  --zambian-danger: var(--zambian-red);
+  --zambian-info: #2196F3;
+
+  /* Text Colors for Better Readability */
+  --zambian-text-primary: var(--zambian-gray-900);
+  --zambian-text-secondary: var(--zambian-gray-700);
+  --zambian-text-muted: var(--zambian-gray-600);
+  --zambian-text-light: var(--zambian-gray-500);
+  --zambian-text-white: var(--zambian-white);
+
+  /* Background Colors */
+  --zambian-bg-primary: var(--zambian-white);
+  --zambian-bg-secondary: var(--zambian-gray-50);
+  --zambian-bg-muted: var(--zambian-gray-100);
+  --zambian-bg-dark: var(--zambian-gray-800);
+
+  /* Border Colors */
+  --zambian-border-light: var(--zambian-gray-200);
+  --zambian-border-medium: var(--zambian-gray-300);
+  --zambian-border-dark: var(--zambian-gray-400);
+
+  /* Shadow Colors */
+  --zambian-shadow-light: rgba(47, 47, 47, 0.1);
+  --zambian-shadow-medium: rgba(47, 47, 47, 0.15);
+  --zambian-shadow-dark: rgba(47, 47, 47, 0.2);
+}
+
+/* Override existing CSS variables with Zambian theme */
+:root {
+  --primary: var(--zambian-primary);
+  --primary-light: var(--zambian-primary-light);
+  --primary-dark: var(--zambian-primary-dark);
+
+  --secondary: var(--zambian-secondary);
+  --success: var(--zambian-success);
+  --warning: var(--zambian-warning);
+  --danger: var(--zambian-danger);
+  --info: var(--zambian-info);
+
+  --text-color: var(--zambian-text-primary);
+  --text-muted: var(--zambian-text-muted);
+  --text-light: var(--zambian-text-light);
+
+  --bg-color: var(--zambian-bg-primary);
+  --fg-color: var(--zambian-bg-secondary);
+  --border-color: var(--zambian-border-light);
+
+  /* Enhanced hover and focus states for better UX */
+  --hover-bg: var(--zambian-primary-hover);
+  --focus-ring: var(--zambian-primary-200);
+  --control-bg: var(--zambian-bg-muted);
+  --control-bg-hover: var(--zambian-primary-bg);
+}
