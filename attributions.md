@@ -1,4 +1,4 @@
-## ERPNext includes these public works
+## WATHACI EPR includes these public works
 
 For Frappe Framework, please see attributions.md at https://github.com/frappe/frappe/
 

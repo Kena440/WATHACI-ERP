@@ -21,7 +21,7 @@ erpnext.accounts.bank_reconciliation.NumberCardManager = class NumberCardManager
 			},
 			{
 				value: this.cleared_balance,
-				label: __("Closing Balance as per ERP"),
+				label: __("Closing Balance as per WATHACI EPR"),
 				datatype: "Currency",
 				currency: this.currency,
 			},
